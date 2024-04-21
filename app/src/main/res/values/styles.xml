@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Set background image -->
+        <item name="android:windowBackground">@drawable/background_image</item>
+        <!-- Other style attributes -->
+    </style>
+
+    <style name="AppButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/colorGray</item> <!-- Apply grey color to button -->
+    </style>
+
+
+</resources>
